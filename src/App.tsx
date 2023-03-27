@@ -1,13 +1,13 @@
 import "./App.css";
 import Counter from "./components/Counter";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <div>Sample Title</div>
+      <h1 className="font-bold bg-red-200 text-red-600 text-4xl">
+        Hello world!
+      </h1>
       <Counter />
     </div>
   );
 }
-
-export default App;
